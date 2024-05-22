@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Pacifico, Arial, Tahoma, sans-serif;
+    background: #D2D2D0;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.moodboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item {
+    margin: 10px 0 0;
+    width: calc((100% - 2 * 10px) / 3);
+    flex-grow: 1;
+}
+
+.item:not(:nth-child(3n)) {
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.socials a {
+    color: #000;
+    font-size: 27px;
+    line-height: 31.64px;
+    padding-right: 20px;
+}
